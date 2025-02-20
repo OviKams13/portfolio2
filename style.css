@@ -295,7 +295,21 @@ section {
   
   .details-container {
     padding: 1.5rem;
-    flex: 1;
+    /* flex: 0.5;
+    max-width: 600px;
+    margin: auto; */
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+  }
+
+  .details-containerr {
+    padding: 1.5rem;
+    flex: 0.5;
+    max-width: 600px;
+    margin: auto;
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
@@ -431,3 +445,14 @@ footer {
     text-align: center;
   }
   
+  .btn.btn-color-2.project-btn a {
+    color: rgb(0, 0, 0); /* Change la couleur du texte */
+    text-decoration: none; /* Supprime le soulignement */
+    font-weight: bold; /* Rend le texte plus épais */
+}
+
+.btn.btn-color-2.project-btn a:hover {
+    color: rgb(255, 255, 255); /* Change la couleur au survol */
+    text-decoration: none; /* Ajoute un soulignement au survol */
+}
+
